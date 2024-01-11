@@ -1,0 +1,41 @@
+lib/
+bin/
+build/
+
+# Maven
+log/
+target/
+/*.properties
+
+# Eclipse workspace
+.classpath
+.project
+.settings/
+.metadata
+/RemoteSystemsTempFiles
+.xml/
+
+# IntelliJ IDEA workspace
+*.ipr
+*.iml
+*.iws
+.idea/
+/test-output
+
+# NetBeans workspace
+.nb-gradle
+
+# OS-specific files
+.DS_Store
+Icon*i
+.attach_pid*
+*~
+
+# Other
+*.tmp
+
+# Visual Code
+.factorypath
+.vscode
+/camel/components/messaging-integration-parent/paho-mqtt5-test/#file/
+/camel/eip/idempotent-consumer/idempotent-testcontainers-test/idempotent-consumer-file-test/repository.txt
